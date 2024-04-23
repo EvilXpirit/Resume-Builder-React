@@ -1,7 +1,7 @@
 {
   "name": "registration-form-with-progressive-bar",
   "version": "0.1.0",
-  "homepage": "https://evilxpirit.github.io/Student-Registration-Form",
+  "homepage": "https://evilxpirit.github.io/Resume-Builder-React",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^3.4.2",
