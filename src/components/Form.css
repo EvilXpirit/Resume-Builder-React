@@ -1,0 +1,126 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    /* margin-right: ; */
+  }
+
+  .preview button, .dashboard button {
+    margin-right: 1rem;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    position: relative;
+    color: #777;
+  }
+  
+  .divider {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 2px;
+    background-color: #ccc;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between; 
+    background-color: #65009482; 
+    padding: 10px 20px; 
+    margin-bottom: 2rem;
+    box-shadow: 1px 3px 7px rgba(255, 255, 255, 0.318);
+}
+
+.navbar-left{
+    color: white;
+    font-size: 2rem;
+    margin: auto 0rem;
+    font-weight: 500;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; 
+}
+
+.navbar a:hover {
+    background-color: #555; 
+}
+
+.dashboard-button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard img, .preview img{
+    width: 220px;
+}
+
+.PDFViewer {
+  position: absolute;
+  top: 87rem;
+  right: 15rem;
+  padding-bottom: 5rem;
+} 
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.skill-item button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.skill-item button:hover {
+  background-color: #c82333;
+}
+
